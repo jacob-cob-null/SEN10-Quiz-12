@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="An appreciation page for the remarkable fishes of our ocean." />
+    <title>For the Fishes | Ocean Appreciation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="For the Fishes home">FOR THE FISHES<span>+</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#why-fish">Why fish</a>
+        <a href="#field-notes">Field notes</a>
+      </nav>
+      <button class="tide-button" id="tide-button" type="button" aria-pressed="false">Change the tide</button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">An ocean appreciation page / 001</p>
+          <h1 id="hero-title">Make room<br /><em>for fish.</em></h1>
+          <p class="hero-intro">They keep the ocean moving, mysterious, and alive. This is a small thank-you to the brilliant, bizarre citizens beneath the surface.</p>
+          <a class="text-link" href="#why-fish">Dive into the details <span aria-hidden="true">&darr;</span></a>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a school of fish in blue water" role="img">
+          <div class="sun-disc"></div>
+          <div class="depth-line depth-line-one"></div>
+          <div class="depth-line depth-line-two"></div>
+          <div class="fish fish-large"><span></span></div>
+          <div class="fish fish-small fish-small-one"><span></span></div>
+          <div class="fish fish-small fish-small-two"><span></span></div>
+          <div class="fish fish-small fish-small-three"><span></span></div>
+          <div class="bubble bubble-one"></div>
+          <div class="bubble bubble-two"></div>
+          <div class="bubble bubble-three"></div>
+          <p class="art-caption">Somewhere off the continental shelf<br />the commute is beautiful.</p>
+        </div>
+      </section>
+
+      <section class="statement" id="why-fish" aria-labelledby="statement-title">
+        <p class="eyebrow">A note of gratitude</p>
+        <h2 id="statement-title">Fish are not background scenery. <span>They are the architecture.</span></h2>
+        <div class="statement-detail">
+          <p>From coral nurseries to the midnight zone, fish connect habitats and carry energy through the food web. They shape reefs, feed communities, and turn a wide blue expanse into an ecosystem.</p>
+          <span class="stamp">KEEP<br />LOOKING<br />CLOSER</span>
+        </div>
+      </section>
+
+      <section class="field-notes" id="field-notes" aria-labelledby="notes-title">
+        <div class="section-heading">
+          <p class="eyebrow">Three reasons to wonder</p>
+          <h2 id="notes-title">Field notes from<br /><em>below the line.</em></h2>
+        </div>
+        <div class="notes-grid">
+          <article class="note-card note-card-coral">
+            <span class="note-number">01 / 03</span>
+            <div class="note-icon">✳</div>
+            <h3>Reef engineers</h3>
+            <p>Parrotfish nibble coral and excrete the sand that makes tropical beaches. Yes, really.</p>
+          </article>
+          <article class="note-card note-card-kelp">
+            <span class="note-number">02 / 03</span>
+            <div class="note-icon">≈</div>
+            <h3>Ocean gardeners</h3>
+            <p>Fish graze algae, helping kelp forests and coral reefs keep their balance and breathe.</p>
+          </article>
+          <article class="note-card note-card-ink">
+            <span class="note-number">03 / 03</span>
+            <div class="note-icon">◌</div>
+            <h3>Shape-shifters</h3>
+            <p>From transparent larvae to flashing courtship colors, fish make a lifetime out of transformation.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing-note" aria-label="Closing message">
+        <p>Next time you see a wave, remember there is a whole city underneath it.</p>
+        <span>With admiration, from land</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>FOR THE FISHES / 2026</span>
+      <a href="#top">Back to surface &uarr;</a>
+    </footer>
+  </body>
+</html>

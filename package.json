@@ -1,0 +1,12 @@
+{
+  "name": "sen10-quiz-12",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A fish appreciation page for the ocean.",
+  "scripts": {
+    "lint": "eslint script.js"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  }
+}
