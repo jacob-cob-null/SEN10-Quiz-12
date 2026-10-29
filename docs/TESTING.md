@@ -41,6 +41,10 @@ Tests:       3 failed, 2 passed, 5 total
 
 [Complete recorded FAILING output](test-evidence/FAILING.txt)
 
+![FAILING Jest output: exit code 1, 3 failed and 2 passed tests](test-evidence/screenshots/FAILING.jpg)
+
+Screenshot of the unedited recorded local Jest output displayed in the browser, including assertion failures and the final summary.
+
 ### PASSING demonstration
 
 Correct implementation restored:
@@ -60,7 +64,11 @@ Tests:       5 passed, 5 total
 
 [Complete recorded PASSING output](test-evidence/PASSING.txt)
 
-These are local demonstration results recorded on October 29, 2026. Only the corrected implementation is committed and deployed.
+![PASSING Jest output: exit code 0, all 5 tests passed](test-evidence/screenshots/PASSING.jpg)
+
+Screenshot of the unedited recorded local Jest output displayed in the browser. The capture is cropped to the output area.
+
+These are local demonstration results recorded on October 29, 2026. The screenshots capture the saved FAILING.txt and PASSING.txt outputs from commit `6e447fb`, displayed in the browser. The underlying output text was not edited. Only the corrected implementation is committed and deployed.
 
 ## Deployment gate
 

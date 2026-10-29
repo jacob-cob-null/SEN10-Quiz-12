@@ -1,6 +1,6 @@
-# LLM prompts for the Jest activity
+# LLM prompt continuation: Jest activity and test evidence
 
-Assistant used: OpenAI Codex. The human prompts and requirement responses below are kept in their original wording. UI metadata and environment context are omitted. The original activity's prompts remain in [README.md](../README.md#llm-prompts-used).
+Assistant used: OpenAI Codex. The human prompts and requirement responses below are kept in their original wording. UI metadata and environment context are omitted. This is a continuation of the original static-site activity. Its earlier prompts remain in [README.md](../README.md#llm-prompts-used).
 
 ## 1. Repository context prompt
 
@@ -32,4 +32,12 @@ Here, option 1 was: "Show both locally; commit the passing version (recommended)
 
 > Implement, document prompts, and push to GitHub (recommended)
 
-No additional human implementation prompts were supplied before this implementation. The README, test files, workflow, and demonstration script are outputs generated from these instructions.
+The README, test files, workflow, and demonstration script are outputs generated from these instructions.
+
+## 4. Screenshot evidence follow-up (continuation of this activity)
+
+The following is the user's exact follow-up prompt, appended to the same activity record:
+
+```text
+can you include screenshots/capture of Failing and Passing tests for better evidence? and include what I've prompted exactly here, as a continuation (since it is a continuation of this activity)
+```

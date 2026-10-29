@@ -51,6 +51,8 @@ These are the prompts used in this project, kept true to the request wording.
 
    > Build the requested fish appreciation static site in the supplied empty GitHub repository. Add HTML, CSS, and JavaScript; configure ESLint; add a GitHub Actions workflow that runs lint before deploying the root directory to GitHub Pages; document the repository link, setup, linter demonstration, and the exact prompts used. Demonstrate the missing-semicolon failure locally, then restore the corrected version for deployment.
 
+Continuation: [Jest assignment, requirement answers, and the exact screenshot evidence follow-up prompt](docs/LLM-PROMPTS.md).
+
 ## Project files
 
 - `index.html`: accessible site structure and fish appreciation content.
@@ -75,10 +77,12 @@ Run `npm run test:demo` to reproduce a real failing test run, restore the correc
 | **FAILING** | Use `Math.ceil` instead of `Math.floor` for the random fact index | **3 failed, 2 passed** | **1** |
 | **PASSING** | Restore `Math.floor` | **5 passed** | **0** |
 
+- [FAILING test screenshot](docs/test-evidence/screenshots/FAILING.jpg)
 - [Complete FAILING test output](docs/test-evidence/FAILING.txt)
+- [PASSING test screenshot](docs/test-evidence/screenshots/PASSING.jpg)
 - [Complete PASSING test output](docs/test-evidence/PASSING.txt)
 - [Instructions and explanation](docs/TESTING.md)
-- [All human LLM prompts and requirement answers for this activity](docs/LLM-PROMPTS.md)
+- [LLM prompt continuation, including the exact screenshot follow-up](docs/LLM-PROMPTS.md)
 - [GitHub Actions workflow runs](https://github.com/jacob-cob-null/SEN10-Quiz-12/actions)
 
-The failure was demonstrated locally. Only the corrected passing version is committed for deployment.
+The failure was demonstrated locally. The screenshots capture the unedited saved Jest output displayed in the browser. Both images are embedded alongside the logs in [the demonstration guide](docs/TESTING.md). Only the corrected passing version is committed for deployment.
