@@ -77,12 +77,18 @@ Run `npm run test:demo` to reproduce a real failing test run, restore the correc
 | **FAILING** | Use `Math.ceil` instead of `Math.floor` for the random fact index | **3 failed, 2 passed** | **1** |
 | **PASSING** | Restore `Math.floor` | **5 passed** | **0** |
 
-- [FAILING test screenshot](docs/test-evidence/screenshots/FAILING.jpg)
+**FAILING — 3 failed, 2 passed; exit code 1**
+
+![FAILING Jest test output](docs/test-evidence/screenshots/FAILING.jpg)
+
+**PASSING — all 5 passed; exit code 0**
+
+![PASSING Jest test output](docs/test-evidence/screenshots/PASSING.jpg)
+
 - [Complete FAILING test output](docs/test-evidence/FAILING.txt)
-- [PASSING test screenshot](docs/test-evidence/screenshots/PASSING.jpg)
 - [Complete PASSING test output](docs/test-evidence/PASSING.txt)
 - [Instructions and explanation](docs/TESTING.md)
 - [LLM prompt continuation, including the exact screenshot follow-up](docs/LLM-PROMPTS.md)
 - [GitHub Actions workflow runs](https://github.com/jacob-cob-null/SEN10-Quiz-12/actions)
 
-The failure was demonstrated locally. The screenshots capture the unedited saved Jest output displayed in the browser. Both images are embedded alongside the logs in [the demonstration guide](docs/TESTING.md). Only the corrected passing version is committed for deployment.
+The failure was demonstrated locally. The screenshots capture the unedited saved Jest output displayed in the browser. Both images are embedded above and alongside the logs in [the demonstration guide](docs/TESTING.md). Only the corrected passing version is committed for deployment.

@@ -41,3 +41,9 @@ The following is the user's exact follow-up prompt, appended to the same activit
 ```text
 can you include screenshots/capture of Failing and Passing tests for better evidence? and include what I've prompted exactly here, as a continuation (since it is a continuation of this activity)
 ```
+
+## 5. README embedding follow-up
+
+```text
+embed it in the readme
+```
