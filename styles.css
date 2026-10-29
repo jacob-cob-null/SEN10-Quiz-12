@@ -28,6 +28,9 @@ h1, h2, h3 { font-family: Fraunces, Georgia, serif; font-weight: 500; letter-spa
 h1 { margin-bottom: 30px; font-size: clamp(4rem, 8vw, 7.8rem); line-height: 0.84; }
 h1 em, h2 em { color: var(--coral); font-style: normal; }
 .hero-intro { max-width: 350px; font-size: 0.82rem; line-height: 1.8; }
+.fish-fact { max-width: 350px; margin-top: 12px; padding: 16px 0 0 16px; border-left: 3px solid var(--coral); }
+.fish-fact h2 { margin-bottom: 10px; font-family: "DM Mono", monospace; font-size: 0.65rem; line-height: 1.6; letter-spacing: 0.05em; text-transform: uppercase; }
+.fish-fact p { margin-bottom: 0; font-size: 0.75rem; line-height: 1.8; }
 .text-link { margin-top: 28px; padding-bottom: 7px; border-bottom: 1px solid var(--ink); font-size: 0.7rem; }
 .text-link span { color: var(--coral); padding-left: 12px; }
 .hero-art { position: relative; overflow: hidden; min-height: 630px; background: var(--sea); }

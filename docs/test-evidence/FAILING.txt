@@ -1,0 +1,61 @@
+FAILING DEMONSTRATION
+Command: npm test -- --no-colors
+Exit code: 1
+
+FAIL ./script.test.js
+  ● displays a random fish fact automatically when the deferred page script loads
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Clownfish find shelter among the stinging tentacles of sea anemones."
+    Received: "Male seahorses carry developing young in a brood pouch."
+
+      20 |
+      21 |   expect(random).toHaveBeenCalledTimes(1);
+    > 22 |   expect(document.querySelector("#fish-fact").textContent).toBe(
+         |                                                            ^
+      23 |     "Clownfish find shelter among the stinging tentacles of sea anemones."
+      24 |   );
+      25 | });
+
+      at Object.toBe (script.test.js:22:60)
+
+  ● selects and displays the correct fact for random value 0.5
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Clownfish find shelter among the stinging tentacles of sea anemones."
+    Received: "Male seahorses carry developing young in a brood pouch."
+
+      33 |   const { showRandomFishFact } = require("./script.js");
+      34 |
+    > 35 |   expect(showRandomFishFact()).toBe(expectedFact);
+         |                                ^
+      36 |   expect(document.querySelector("#fish-fact").textContent).toBe(expectedFact);
+      37 | });
+      38 |
+
+      at toBe (script.test.js:35:32)
+
+  ● selects and displays the correct fact for random value 0.999999
+
+    expect(received).toBe(expected) // Object.is equality
+
+    Expected: "Male seahorses carry developing young in a brood pouch."
+    Received: undefined
+
+      33 |   const { showRandomFishFact } = require("./script.js");
+      34 |
+    > 35 |   expect(showRandomFishFact()).toBe(expectedFact);
+         |                                ^
+      36 |   expect(document.querySelector("#fish-fact").textContent).toBe(expectedFact);
+      37 | });
+      38 |
+
+      at toBe (script.test.js:35:32)
+
+Test Suites: 1 failed, 1 total
+Tests:       3 failed, 2 passed, 5 total
+Snapshots:   0 total
+Time:        0.996 s, estimated 1 s
+Ran all test suites.
